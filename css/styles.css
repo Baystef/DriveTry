@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+/* Header styles */
+.header {
+    background-image: url('../Images/alejandro-salinas-189861-unsplash.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    margin: auto;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.description h1 {
+    font-weight: 800;
+}
+
+.description span {
+    color: #ffbf00;
+}
+
+.description p {
+    color: #f4f4f4;
+}
+
+
+/* Vehicle registration styles */
+.registration {
+    height: 20vh;
+    background: #ffbf00;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration label {
+    color: #f2f2f2;
+}
+
+.registration input[type="text"] {
+    border-radius: 0px;
+    height: 40px;
+    width: 300px;
+    margin-right: 5px;
+    border: none;
+}
+
+.registration input[type="text"]::placeholder {
+    color: #E0E0E0;
+}
+
+.registration .btn {
+    background-color: black;
+    color: white;
+}
+
+.registration .btn:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+
+/* How-it-works styles */
+.how {
+    height: 80vh;
+    height: 100%;
+}
+
+.how .container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.how-text {
+    margin-bottom: 50px;
+}
+
+.how h1 {
+    color: #ffbf00;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.how p {
+    color: #888888;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    /* padding: 20px 20px; */
+    margin: 10px 30px;
+    background: white;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #828282;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: #ffbf00;
+    border-radius: 0;
+    border: none;
+    padding: 5px 80px;
+    font-weight: bold;
+}
+
+.how .btn {
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background-color: #ffbf00cc
+}
+
+
+/* Host styles */
+.host-car {
+    background: #f8f8f8;
+    z-index: -2;
+}
+
+.host-car::after {
+    content: '.';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    background: #35DAB2;
+    border-bottom: 15px solid #3BF2C6;
+}
+
+.host-caption {
+    background-color: #ffbf00;
+    color: white;
+}
+
+.host-caption-text {
+    margin: 60px 30px 0 30px;
+    margin-bottom: 100px;
+}
+
+.host-caption-text h2 {
+    font-weight: bold;
+}
+
+.host-caption-text p {
+    color: #f0f0f0;
+}
+
+.host-caption-text ul {
+    list-style-type: '- ';
+    line-height: 1.5;
+    margin-left: -25px;
+    margin-top: 30px;
+}
+
+
+/* Earning styles */
+.earning {
+    min-height: 300px;
+}
+
+.earning-text {
+    margin-top: 50px;
+}
+
+.earning-text h2 {
+    color: #ffbf00;
+    font-weight: bold;
+}
+
+.earning-text p {
+    color: #888888;
+}
+
+.earning form {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.earning input[type="text"] {
+    border-radius: 0;
+    height: 40px;
+    width: 300px;
+    margin-right: 5px;
+    border-color: #ffbf00;
+}
+
+.earning input[type="text"]::placeholder {
+    color: #E0E0E0;
+}
+
+.earning .btn {
+    background-color: black;
+    color: white;
+}
+
+.earning .btn:hover {
+    background-color: rgba(0, 0, 0, 0.733);
+}
